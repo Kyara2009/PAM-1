@@ -2,24 +2,43 @@ import { StyleSheet } from "react-native";
 
 const estilos = StyleSheet.create({
   container: {
-    flex: 1,
+    width: "100%",
+    height: "100%",
+    margin: "auto",
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: "#dadadaff",
+
+   
   },
   texto: {
-    fontSize: 36,
-    marginBottom: 20,
-    marginTop: 30
+    // fontSize: 50,
+    // marginBottom: 20,
+    // marginTop: 30,
+    // fontStyle: "Bold",
   },
+
   BoxIcones: {
-    width: "30%",
-    height: "30%",
+
+
   },
+
   boxTitulo:{
-
+    fontSize: 40,
+    marginBottom: 20,
+    marginTop: 30,
+    fontStyle: "Bold",
+    backgroundColor: "#ffffffff",
   },
-  IconesLista:{
 
+  IconesLista:{
+  display: "flex",
+    flexDirection: "row",
+    width: "100%",
+    height: "10%",
+    // justifyContent: "center",
+    // alignItems: "center",
+    backgroundColor: "#ffffffff",
   }
 
 });

@@ -7,7 +7,7 @@ import estilos from "./estilos";
 export default function App () {
   return (
     <View style={ estilos.container }>
-      <View style={estilos.BoxIcones}>
+      {/* <View style={estilos.BoxIcones}> */}
       <Text style={ estilos.boxTitulo }>FontAwesome</Text>
 
       <View style={estilos.IconesLista}>
@@ -18,12 +18,11 @@ export default function App () {
       <FontAwesome name="envelope-o" size={40} color="purple" />
       <FontAwesome name="user" size={40} color="green" />
       <FontAwesome name="check" size={40} color="cyan" />
-
-      </View>
       </View>
 
+      {/* </View> */}
 
-      <View style={estilos.BoxIcones}>
+      {/* <View style={estilos.BoxIcones}> */}
       <Text style={estilos.boxTitulo}>Entypo</Text>
 
       <View style={estilos.IconesLista}>
@@ -34,9 +33,9 @@ export default function App () {
       <Entypo name="aircraft" size={40} color="green" />
       <Entypo name="app-store" size={40} color="purple" />
       </View>
-      </View>
+      {/* </View> */}
       
-      <View style={estilos.BoxIcones}>
+      {/* <View style={estilos.BoxIcones}> */}
       <Text style={estilos.boxTitulo}>MaterialIcons</Text>
 
       <View style={estilos.IconesLista}>
@@ -47,7 +46,7 @@ export default function App () {
      <MaterialIcons name="11mp" size={40} color="blue" />
      <MaterialIcons name="12mp" size={40} color="green" />
       </View>
-      </View>
+      {/* </View> */}
     </View>
   )
 };
